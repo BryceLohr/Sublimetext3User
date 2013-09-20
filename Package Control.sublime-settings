@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
-		"Apache Pig"
+		"Apache Pig",
+		"PowerShell"
 	]
 }
