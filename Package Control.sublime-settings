@@ -2,6 +2,11 @@
 	"installed_packages":
 	[
 		"Apache Pig",
+		"BlockCursorEverywhere",
 		"PowerShell"
+	],
+	"repositories":
+	[
+		"https://github.com/ingshtrom/BlockCursorEverywhere"
 	]
 }
