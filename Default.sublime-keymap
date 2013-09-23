@@ -1,0 +1,12 @@
+[
+    { "keys": ["Y"], "command": "set_action_motion", "args": {
+        "action": "vi_copy",
+        "motion": "vi_move_to_hard_eol",
+        "motion_args": {"repeat": 1, "extend": true},
+        "motion_inclusive": true },
+        "context": [{"key": "setting.command_mode"}]
+    },
+    { "keys": ["Z", "Z"], "command": "vi_save_and_exit",
+        "context": [{"key": "setting.command_mode"}]
+    }
+]
