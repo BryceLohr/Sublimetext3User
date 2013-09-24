@@ -13,3 +13,4 @@ Features/changes to implement next.
     1. Add normal-mode `ctrl+v` for visual block mode with multiple selections, like middle-mouse button selections
     2. Add insert-mode `ctrl+r` to put-from-register
     3. Add insert-mode `ctrl+y` and `ctrl+e` to insert character in same column from line above and below (respectively) on current line
+7. Fix `gq` normal-mode command to only format within the same text scope (ie, a comment), instead of affecting the lines above & below
