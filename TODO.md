@@ -15,3 +15,4 @@ Features/changes to implement next.
     3. Add insert-mode `ctrl+y` and `ctrl+e` to insert character in same column from line above and below (respectively) on current line
 7. Fix `gq` normal-mode command to only format within the same text scope (ie, a comment), instead of affecting the lines above & below
 8. `gv` normal-mode command to re-select the previous selection after un-selecting
+9. `;` normal-mode command to repeat last intra-line character find. Also support repeat count.
