@@ -12,4 +12,8 @@
     // These two override the default bindings for moving the cursor in subwords
     { "keys": ["alt+left"], "command": "jump_back" },
     { "keys": ["alt+right"], "command": "jump_forward" },
+    // Overrides the default binding for Goto Symbol. Of the vintage_ctrl_keys, I only use ctrl-y, want the default bindings for the rest.
+    { "keys": ["ctrl+r"], "command": "redo_or_repeat",
+        "context": [{"key": "setting.command_mode"}]
+    },
 ]
