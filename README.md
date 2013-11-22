@@ -8,9 +8,8 @@ Features
 --------
 
 1. `:s` invokes Replace panel
-2. `Y` yanks to end of line, rather than the whole line. This annoyed me in Vim as well.
-3. `vintage_ctrl_keys: true` so Ctrl-R is Redo.
-4. `:bd` closes current buffer
-5. `:wq` saves current file and closes buffer
-6. `:e` edits a file
-7. `ZZ` saves and closes current file as a normal-mode command
+1. `Y` yanks to end of line, rather than the whole line. This annoyed me in Vim as well.
+1. `:bd` closes current buffer
+1. `:wq` saves current file and closes buffer
+1. `:e` edits a file
+1. `ZZ` saves and closes current file as a normal-mode command
