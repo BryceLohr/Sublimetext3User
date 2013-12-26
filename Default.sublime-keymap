@@ -16,4 +16,6 @@
     { "keys": ["ctrl+r"], "command": "redo_or_repeat",
         "context": [{"key": "setting.command_mode"}]
     },
+    // In Vim, g* does a partial-word version of *. This, instead, does a quick find all
+    { "keys": ["g", "*"], "command": "find_all_under" },
 ]
