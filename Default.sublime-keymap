@@ -18,4 +18,8 @@
     },
     // In Vim, g* does a partial-word version of *. This, instead, does a quick find all
     { "keys": ["g", "*"], "command": "find_all_under" },
+    // Bind gq to the Wrap Plus package's wrap_lines command instead of the built-in one
+    { "keys": ["g", "q"], "command": "wrap_lines_plus",
+        "context": [{"key": "setting.command_mode"}]
+    }
 ]
