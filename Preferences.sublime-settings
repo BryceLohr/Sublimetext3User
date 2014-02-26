@@ -1,6 +1,6 @@
 {
-    "atomic_save": false,
 	"always_show_minimap_viewport": true,
+	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Monokai Bright.tmTheme",
