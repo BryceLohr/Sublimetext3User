@@ -11,7 +11,8 @@
 	"ignored_packages":
 	[
 	],
-    "spell_check": true,
+	"show_encoding": true,
+	"spell_check": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true
