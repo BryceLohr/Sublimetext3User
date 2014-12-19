@@ -15,5 +15,10 @@
 	"spell_check": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+	"indent_guide_options":
+    [
+        "draw_normal",
+        "draw_active"
+    ]
 }
