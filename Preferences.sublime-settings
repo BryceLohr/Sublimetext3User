@@ -11,14 +11,14 @@
 	"ignored_packages":
 	[
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
 	"show_encoding": true,
 	"spell_check": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"vintage_start_in_command_mode": true,
-	"indent_guide_options":
-    [
-        "draw_normal",
-        "draw_active"
-    ]
+	"vintage_start_in_command_mode": true
 }
