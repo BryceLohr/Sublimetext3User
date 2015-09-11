@@ -1,4 +1,7 @@
 [
     { "keys": ["super+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["super+down"], "command": "select_lines", "args": {"forward": true} }
+    { "keys": ["super+down"], "command": "select_lines", "args": {"forward": true} },
+
+    { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
+    { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} }
 ]
