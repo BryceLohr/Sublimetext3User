@@ -13,3 +13,23 @@ Features
 1. `:wq` saves current file and closes buffer
 1. `:e` edits a file
 1. `ZZ` saves and closes current file as a normal-mode command
+
+Installation
+------------
+
+1. Install Sublime Text.
+1. Install [Package Control](https://packagecontrol.io/installation).
+1. Make a symlink from projects directory to Sublime Text user package for easy access.
+
+  ```
+  $ ln -s ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ Sublime\ Text
+  ```
+
+1. Clone this repo into that directory.
+
+  ```
+  $ cd Sublime\ Text
+  $ git clone https://github.com/BryceLohr/Sublimetext3User.git .
+  ```
+
+1. Restart Sublime.
