@@ -22,6 +22,7 @@ Installation
 1. Make a symlink from projects directory to Sublime Text user package for easy access.
 
   ```
+  $ cd ~
   $ ln -s ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/ Sublime\ Text
   ```
 
@@ -32,4 +33,11 @@ Installation
   $ git clone https://github.com/BryceLohr/Sublimetext3User.git .
   ```
 
+1. Create a link to the OS-specific settings so Sublime can find them.
+
+  ```
+  $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+  $ ln -s User/OS OS
+  ```
+  
 1. Restart Sublime.
