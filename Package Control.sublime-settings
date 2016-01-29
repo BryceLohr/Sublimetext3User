@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -9,6 +10,7 @@
 		"Block Cursor Everywhere",
 		"Dockerfile Syntax Highlighting",
 		"Gradle_Language",
+		"Indent XML",
 		"Markdown Preview",
 		"MarkdownEditing",
 		"Package Control",
