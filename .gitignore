@@ -2,4 +2,5 @@ Package Control.last-run
 Package Control.cache
 Package Control.merged-ca-bundle
 Package Control.system-ca-bundle
+oscrypto-ca-bundle.crt
 .DS_Store
