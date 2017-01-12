@@ -17,6 +17,7 @@
 		"PowerShell",
 		"SideBarEnhancements",
 		"SublimeLinter",
+		"SublimeLinter-flake8",
 		"Wrap Plus"
 	],
 	"repositories":
