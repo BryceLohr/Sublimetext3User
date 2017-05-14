@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"Apache Pig",
 		"Block Cursor Everywhere",
 		"Dockerfile Syntax Highlighting",
 		"Gradle_Language",
@@ -14,7 +13,6 @@
 		"Markdown Preview",
 		"MarkdownEditing",
 		"Package Control",
-		"PowerShell",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
