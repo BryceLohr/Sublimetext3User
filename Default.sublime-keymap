@@ -21,5 +21,6 @@
     // Bind gq to the Wrap Plus package's wrap_lines command instead of the built-in one
     { "keys": ["g", "q"], "command": "wrap_lines_plus",
         "context": [{"key": "setting.command_mode"}]
-    }
+    },
+    { "keys": ["g", "d"], "command": "goto_definition" }
 ]
