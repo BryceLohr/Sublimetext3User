@@ -9,7 +9,6 @@
 		"Block Cursor Everywhere",
 		"Dockerfile Syntax Highlighting",
 		"Gradle_Language",
-		"Markdown Preview",
 		"MarkdownEditing",
 		"Package Control",
 		"Pretty JSON",
@@ -17,7 +16,8 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
-		"Wrap Plus"
+		"Wrap Plus",
+		"MarkdownPreview"
 	],
 	"repositories":
 	[
