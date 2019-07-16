@@ -16,6 +16,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
+		"Terraform",
 		"Wrap Plus"
 	],
 	"repositories":
