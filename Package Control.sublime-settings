@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Compare Side-By-Side",
 		"Dockerfile Syntax Highlighting",
 		"Gradle_Language",
 		"MarkdownEditing",
