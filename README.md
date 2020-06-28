@@ -14,6 +14,7 @@ Features
 1. `:e` edits a file
 1. `ZZ` saves and closes current file as a normal-mode command
 1. `gd` invokes Goto Definition on the word under the cursor
+1. *alt-up* and *alt-down* navigate build results instead of *F4*/*shift-F4*
 
 Installation
 ------------
