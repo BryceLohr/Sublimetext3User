@@ -20,6 +20,7 @@
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"Terraform",
+		"TypeScript Syntax",
 		"Wrap Plus"
 	],
 	"repositories":
