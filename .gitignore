@@ -5,3 +5,5 @@ Package Control.system-ca-bundle
 oscrypto-ca-bundle.crt
 .DS_Store
 SublimeLinter/
+SBSCompareScheme.hidden-color-scheme
+SBSCompareTheme.hidden-tmTheme

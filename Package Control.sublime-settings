@@ -6,16 +6,20 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Compare Side-By-Side",
 		"Dockerfile Syntax Highlighting",
 		"Gradle_Language",
+		"JSX",
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"Package Control",
 		"Pretty JSON",
 		"Pretty YAML",
+		"rainbow_csv",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
+		"Terraform",
 		"Wrap Plus"
 	],
 	"repositories":
