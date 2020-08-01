@@ -1,4 +1,5 @@
 {
+	"diagnostics_highlight_style": "box",
 	"clients":
 	{
 		"javascript-typescript-langserver":
@@ -7,11 +8,11 @@
 		},
 		"typescript-language-server":
 		{
-			"enabled": false
+			"enabled": true
 		}
 	},
-	"log_debug": true,
-	"log_server": true,
-	"log_stderr": true,
-	"log_payloads": true
+	"log_debug": false,
+	"log_server": false,
+	"log_stderr": false,
+	"log_payloads": false
 }
