@@ -22,5 +22,16 @@
     { "keys": ["g", "q"], "command": "wrap_lines_plus",
         "context": [{"key": "setting.command_mode"}]
     },
-    { "keys": ["g", "d"], "command": "goto_definition" }
+    { "keys": ["g", "d"], "command": "goto_definition" },
+    {
+        "keys": ["g", "d"],
+        "command": "lsp_symbol_definition",
+        "context": [
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "source.ts, source.tsx, source.js"
+            }
+        ]
+    }
 ]
