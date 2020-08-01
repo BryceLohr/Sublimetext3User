@@ -23,6 +23,9 @@
         "context": [{"key": "setting.command_mode"}]
     },
     { "keys": ["g", "d"], "command": "goto_definition" },
+    // Use LSP's Goto Definition when in JS or TS files. Could probably just
+    // use this all the time, since LPS will fall back to Sublime's built-in
+    // goto definition if it doesn't work.
     {
         "keys": ["g", "d"],
         "command": "lsp_symbol_definition",
@@ -33,5 +36,25 @@
                 "operand": "source.ts, source.tsx, source.js"
             }
         ]
-    }
+    },
+    // Auto-close tags in TypeScript React files
+    { "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "(text.html, text.xml, source.tsx) - string - comment", "match_all": true },
+            { "key": "preceding_text", "operator": "regex_match", "operand": ".*<$", "match_all": true },
+            { "key": "setting.auto_close_tags" }
+        ]
+    },
+    // Auto-indent the closing tag when you hit enter, if the cursor is
+    // between the opening and closing tags, and the tag is empty
+    {
+        "keys": ["enter"],
+        "command": "insert_snippet",
+        "args": { "contents": "\n\t$0\n" },
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.tsx" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": ">$", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^<", "match_all": true },
+        ]
+    },
 ]
