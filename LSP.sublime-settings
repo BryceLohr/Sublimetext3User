@@ -1,5 +1,6 @@
 {
 	"diagnostics_highlight_style": "box",
+	"auto_show_diagnostics_panel_level": 0,
 	"clients":
 	{
 		"javascript-typescript-langserver":
