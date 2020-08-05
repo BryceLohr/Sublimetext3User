@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the TypeScript syntax
+{
+    // This *should* duplicate the same change on another branch, causing a conflict, just can't remember which one...
+    // tabs and whitespace
+    "rulers": [120],
+    "tab_size": 2
+}

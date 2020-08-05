@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the TypeScriptReact syntax
+{
+    // Keep in sync with TypeScript.sublime-settings
+    // tabs and whitespace
+    "rulers": [120],
+    "tab_size": 2
+}
