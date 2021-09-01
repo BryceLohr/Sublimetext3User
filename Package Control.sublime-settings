@@ -12,6 +12,7 @@
 		"JSX",
 		"MarkdownEditing",
 		"MarkdownPreview",
+		"Oceanic Next Color Scheme",
 		"Package Control",
 		"Pretty JSON",
 		"Pretty YAML",
@@ -26,5 +27,5 @@
 	"repositories":
 	[
 		"https://github.com/ingshtrom/BlockCursorEverywhere"
-	]
+	],
 }
